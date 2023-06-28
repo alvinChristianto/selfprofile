@@ -51,7 +51,7 @@ export default function Home() {
                 <svg
                   width="240"
                   height="240"
-                  viewbox="0 0 200 200"
+                  viewBox="0 0 200 200"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
