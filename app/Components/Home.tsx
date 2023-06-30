@@ -19,7 +19,7 @@ function HomeSection(props: any) {
                 IT Enthusiast | Frontend | Business Analyst
               </h3>
               <p className="font-slate-600 font font-medium text-xs sm:text-sm md:text-lg lg:text-sm italic">
-              "Good code is its own best documentation. Improve the code and then document it to make it even clearer." <span className="font-semibold text-md not-italic">- Steve McConnell</span>
+              &quot; Good code is its own best documentation. Improve the code and then document it to make it even clearer.&quot; <span className="font-semibold text-md not-italic">- Steve McConnell</span>
               </p>
             </div>
             <div className="w-full self-end px-4 lg:w-1/2">
