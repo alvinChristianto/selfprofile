@@ -7,14 +7,14 @@ function Portfolio(props: any) {
   return (
     <section id="portfolio">
       <div className="container">
-        <div className="w-full  px-4 mt-10">
+        <div className="w-full  px-4 my-12 md:my-24 ">
           <h3 className="text-primary text-lg font-bold tracking-wide uppercase mb-5">
             Project Sebelumnya
           </h3>
           <div className=" columns-1 md:columns-2 lg:columns-3">
             {/* 1 */}
             <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-3 hover:shadow-primary hover:duration-300">
-              <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+              <div className="relative flex flex-col rounded-xl bg-slate-100 bg-clip-border text-gray-700 shadow-md">
                 <div className="relative -mt-6 h-56 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
                   <Image src="/img/berau_image1.png" alt="Portfolio" fill />
                 </div>
@@ -46,7 +46,7 @@ function Portfolio(props: any) {
 
             {/* 2 */}
             <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-3 hover:shadow-primary hover:duration-300">
-              <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+              <div className="relative flex flex-col rounded-xl bg-slate-100 bg-clip-border text-gray-700 shadow-md">
                 <div className="relative -mt-6 h-56 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
                   <Image
                     src="/img/nftmo_image.png"
@@ -83,7 +83,7 @@ function Portfolio(props: any) {
 
             {/* 3 */}
             <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-3 hover:shadow-primary hover:duration-300">
-              <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+              <div className="relative flex flex-col rounded-xl  bg-slate-100 bg-clip-border text-gray-700 shadow-md">
                 <div className="relative -mt-6 h-56 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
                   <Image src="/img/oleh_image.png" alt="Portfolio" fill />
                 </div>

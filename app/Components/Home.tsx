@@ -7,7 +7,7 @@ function HomeSection(props: any) {
       <section id="home">
         <div className="container">
           <div className="flex flex-wrap">
-            <div className="w-full self-center px-4 mt-20 lg:w-1/2">
+            <div className="w-full self-center px-4 mt-10 md:mt-36 lg:w-1/2">
               <h1 className="text-base font font-semibold text-slate-700 md:text-2xl">
                 Hallo, Saya
                 <span className=" block font-bold text-primary text-2xl sm:text-5xl md:text-6xl lg:text-5xl mt-1 ">
