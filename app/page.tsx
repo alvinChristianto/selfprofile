@@ -2,6 +2,7 @@
 import HomeSection from "./Components/Home";
 import AboutMe from "./Components/AboutMe";
 import Portfolio from "./Components/Portfolio";
+import IndividualProject from "./Components/IndividualProject";
 import Script from "next/script";
 
 export default function Home() {
@@ -39,6 +40,7 @@ export default function Home() {
       {/* <Navbar /> */}
       <HomeSection />
       <AboutMe />
+      <IndividualProject />
       <Portfolio />
     </>
   );

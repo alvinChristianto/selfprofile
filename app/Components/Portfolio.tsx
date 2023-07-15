@@ -1,16 +1,19 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { Rocket } from "react-ionicons";
 
 function Portfolio(props: any) {
   return (
     <section id="portfolio">
       <div className="container">
         <div className="w-full  px-4 my-12 md:my-24 ">
-          <h3 className="text-primary text-lg font-bold tracking-wide uppercase mb-5">
+          <h3 className="text-primary text-center text-lg font-bold tracking-wide uppercase mb-2">
             Project Sebelumnya
           </h3>
+          <p className="font-medium  text-center text-slate-800 mb-10">
+            Kumpulan project yang sudah selesai dikerjakan. Disertai link untuk
+            melihat project di lingkungan production maupun staging.
+          </p>
           <div className=" columns-1 md:columns-2 lg:columns-3">
             {/* 1 */}
             <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-3 hover:shadow-primary hover:duration-300">
@@ -28,7 +31,9 @@ function Portfolio(props: any) {
                     Menggunakan python dan library geonode dan geoserver, admin
                     bisa mengelola data-data baik dokumen maupun peta.
                   </p>
-                  <p className="italic text-xs mt-3 text-slate-400 ">Tech : python, geonode, geoserver, django, postresql, docker</p>
+                  <p className="italic text-xs mt-3 text-slate-400 ">
+                    Tech : python, geonode, geoserver, django, postresql, docker
+                  </p>
                 </div>
                 <div className="p-6 pt-0">
                   <button
@@ -67,7 +72,10 @@ function Portfolio(props: any) {
                       semua dalam 1 platform !
                     </span>
                   </p>
-                  <p className="italic text-xs mt-3 text-slate-400 ">Tech : blockchain, Smart Contract, polygon, BSC, ReactJs, PHP Laravel, mysql </p>
+                  <p className="italic text-xs mt-3 text-slate-400 ">
+                    Tech : blockchain, Smart Contract, polygon, BSC, ReactJs,
+                    PHP Laravel, mysql{" "}
+                  </p>
                 </div>
                 <div className="p-6 pt-0">
                   <button
@@ -92,11 +100,17 @@ function Portfolio(props: any) {
                     Jogjatron Oleh-oleh
                   </h5>
                   <p className="block   text-base font-light leading-relaxed text-inherit antialiased">
-                    Platform untuk  <span className="font-semibold">bertukar token dan merchandize khas
-                    jogjakarta</span>. User yang mempunyai token Jogjatron, bisa
-                    menukar token dengan merchandize tertentu.
+                    Platform untuk{" "}
+                    <span className="font-semibold">
+                      bertukar token dan merchandize khas jogjakarta
+                    </span>
+                    . User yang mempunyai token Jogjatron, bisa menukar token
+                    dengan merchandize tertentu.
                   </p>
-                  <p className="italic text-xs mt-3 text-slate-400 ">Tech : blockchain, Smart Contract, polygon, BSC, ReactJs, Go, mysql</p>
+                  <p className="italic text-xs mt-3 text-slate-400 ">
+                    Tech : blockchain, Smart Contract, polygon, BSC, ReactJs,
+                    Go, mysql
+                  </p>
                 </div>
                 <div className="p-6 pt-0">
                   <button
