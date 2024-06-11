@@ -4,13 +4,13 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AlvinC | IT enthusiast",
-  description: "Alvin Christianto, Business analyst, Frontend and Blockchain developer ",
+  title: "AlvinC | Fullstack & IT enthusiast",
+  description: "Alvin Christianto, Business analyst, Fullstack web and Blockchainerd ",
   openGraph: {
-    title: 'AlvinC | IT enthusiast',
+    title: 'AlvinC | Fullstack & IT enthusiast',
     type: 'website',
     url: 'https://alvinch.vercel.app/',
-    description: 'Alvin Christianto, Business analyst, Frontend and Blockchain developer',
+    description: 'Alvin Christianto, Business analyst, Fullstack web and Blockchainerd',
     images: '/img/image_alvin.png',
   }
 };
